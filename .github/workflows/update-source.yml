@@ -1,0 +1,56 @@
+name: MA1 PLUS — Auto-Update Source
+
+on:
+  schedule:
+    # Run daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: 'Force update all apps regardless of version changes'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+env:
+  SOURCE_FILE: ma1plus.json
+
+jobs:
+  update-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Update Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_source.py
+
+      - name: Validate Updated JSON
+        run: python -c "import json; json.load(open('${{ env.SOURCE_FILE }}')); print('JSON validation passed')"
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "MA1 PLUS Bot"
+          git config user.email "bot@ma1plus.github.io"
+          git add ${{ env.SOURCE_FILE }}
+          if git diff --cached --quiet; then
+            echo "No changes detected — source is already up to date."
+          else
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "chore: auto-update source — ${TIMESTAMP}"
+            git push
+            echo "Source updated and pushed successfully."
+          fi

@@ -1,0 +1,20 @@
+# Temporary files
+gh.zip
+gh_cli/
+validate.ps1
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Installers (not part of the source repo)
+*.msi
+*.exe
+altinstaller.zip
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
