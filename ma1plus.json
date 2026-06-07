@@ -9,419 +9,796 @@
   "tintColor": "6C5CE7",
   "apps": [
     {
-      "name": "uYouPlus",
+      "name": "uYouEnhanced",
       "bundleIdentifier": "com.google.ios.youtube",
-      "developerName": "qnblackcat",
-      "subtitle": "Enhanced YouTube with uYou & Extra Tweaks",
-      "localizedDescription": "YouTube enhanced with the uYou tweak and additional modifications. Features include:\n\n• Complete ad blocking (video, banner, and native ads)\n• Background playback and Picture-in-Picture mode\n• Video and audio downloading in multiple formats\n• SponsorBlock integration to skip sponsored segments\n• Custom playback speed controls\n• Return YouTube Dislike integration\n• OLED dark mode and interface customization\n• Age restriction bypass\n• Cast to external devices without Premium\n\nBuilt and maintained by qnblackcat with contributions from the open-source community.",
-      "iconURL": "https://raw.githubusercontent.com/qnblackcat/uYouPlus/main/Icons/uYouPlus_Icon.png",
+      "developerName": "arichornlover",
+      "subtitle": "YouTube with uYou & Extra Tweaks",
+      "localizedDescription": "YouTube enhanced with the uYou tweak and additional community modifications.\n\n• Complete ad blocking for video, banner, and native ads\n• Background playback and Picture-in-Picture mode\n• Video and audio downloading in multiple formats\n• SponsorBlock integration to auto-skip sponsors\n• Return YouTube Dislike counter\n• OLED dark mode and interface customization\n• Playback speed controls and age restriction bypass\n• Notifications Tab restoration\n• Backup and restore settings across installs\n\nNote: This is a DIY build — compile from source using the wiki instructions.",
+      "iconURL": "https://raw.githubusercontent.com/arichornlover/uYouEnhanced/main/Icons/uYouEnhanced.png",
       "tintColor": "FF0000",
-      "version": "19.25.3-3.0.4",
-      "versionDate": "2025-03-15T12:00:00Z",
-      "versionDescription": "• Updated to YouTube v19.25.3\n• Updated uYou to v3.0.4\n• Fixed ad blocking for new ad formats\n• Updated SponsorBlock integration\n• Fixed background playback on iOS 17.4+\n• Performance and stability improvements",
-      "downloadURL": "https://github.com/qnblackcat/uYouPlus/releases/download/v19.25.3-3.0.4/uYouPlus_19.25.3_3.0.4.ipa",
-      "size": 115000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/uyouplus_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/uyouplus_2.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/uyouplus_3.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "20.44.2-3.0.4",
+          "date": "2026-02-25T01:05:13Z",
+          "localizedDescription": "• Updated to YouTube v20.44.2\n• Updated uYou to v3.0.4\n• Notifications Tab restoration\n• Backup & Restore settings feature\n• Various stability improvements",
+          "downloadURL": "https://github.com/arichornlover/uYouEnhanced/releases/download/v20.44.2-3.0.4/uYouEnhanced_20.44.2_3.0.4.ipa",
+          "size": 118000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "BHTwitter",
       "bundleIdentifier": "com.atebits.Tweetie2",
       "developerName": "BandarHL",
       "subtitle": "Twitter/X with Advanced Enhancements",
-      "localizedDescription": "Twitter/X enhanced with BHTwitter tweak. Unlock powerful features not available in the stock app:\n\n• Download videos, GIFs, and images natively\n• Undo tweets before they go live\n• Custom font selection and sizing\n• Reader mode for long threads\n• Hide promoted tweets and trends\n• Force chronological timeline\n• Custom app icons and themes\n• Disable tweet character limit warnings\n• Enhanced media viewer\n\nDeveloped by BandarHL with a focus on user customization and privacy.",
-      "iconURL": "https://raw.githubusercontent.com/BandarHL/BHTwitter/main/BHTwitter/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
+      "localizedDescription": "Twitter/X enhanced with BHTwitter tweak providing powerful features:\n\n• Download videos, GIFs, and images natively\n• Undo tweets before they go live\n• Custom font selection and sizing\n• Reader mode for long threads\n• Hide promoted tweets and trends\n• Force chronological timeline\n• Custom app icons and themes\n• Enhanced media viewer\n\nDeveloped by BandarHL with a focus on customization.",
+      "iconURL": "https://raw.githubusercontent.com/BandarHL/BHTwitter/main/Icon/Icon.png",
       "tintColor": "1DA1F2",
-      "version": "4.9",
-      "versionDate": "2025-02-28T12:00:00Z",
-      "versionDescription": "• Fixed video and GIF downloads\n• Updated to latest Twitter/X SDK\n• Added new customization options for tabs\n• Improved reader mode formatting\n• Fixed crash when viewing certain profiles\n• Bug fixes and stability improvements",
-      "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.9/BHTwitter_4.9.ipa",
-      "size": 95000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/bhtwitter_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/bhtwitter_2.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "4.4",
+          "date": "2025-05-13T20:33:01Z",
+          "localizedDescription": "• Updated to latest Twitter/X SDK\n• Fixed video and GIF downloads\n• Added new customization options\n• Bug fixes and stability improvements",
+          "downloadURL": "https://github.com/BandarHL/BHTwitter/releases/download/4.4/BHTwitter-sideloaded.ipa",
+          "size": 167001383,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
-      "name": "Rocket for Instagram",
-      "bundleIdentifier": "com.burbn.instagram",
-      "developerName": "alfhaily",
-      "subtitle": "Instagram Supercharged with Rocket",
-      "localizedDescription": "Instagram enhanced with Rocket tweak for power users:\n\n• Download photos, videos, stories, and reels\n• Repost content with one tap\n• View full-resolution profile pictures\n• Disable read receipts for DMs\n• Disable typing indicators\n• Save stories anonymously\n• Grid layout customization\n• Confirm actions before liking/following\n• Block sponsored posts and suggestions\n• In-app browser blocker\n\nOriginally created by Majd Alfhaily (alfhaily).",
-      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/rocket.png",
-      "tintColor": "E1306C",
-      "version": "3.8.2",
-      "versionDate": "2025-01-20T12:00:00Z",
-      "versionDescription": "• Updated for latest Instagram release\n• Fixed media saving for reels\n• Improved story downloading reliability\n• Fixed profile picture viewer\n• Minor UI and stability fixes",
-      "downloadURL": "https://github.com/G7bao/altstore/releases/download/rocket-v3.8.2/Rocket_3.8.2.ipa",
-      "size": 110000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/rocket_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/rocket_2.png"
-      ]
+      "name": "BHTikTok",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "developerName": "BandarHL",
+      "subtitle": "TikTok with Enhanced Features",
+      "localizedDescription": "TikTok enhanced with BHTikTok tweak by the same developer as BHTwitter:\n\n• Download videos without watermark\n• Remove ads from feed and between videos\n• Disable region restrictions\n• Save live photos and profile pictures\n• Copy video descriptions and captions\n• Enhanced privacy controls\n• Disable read receipts for DMs\n• Interface customization options\n\nDeveloped by BandarHL.",
+      "iconURL": "https://raw.githubusercontent.com/BandarHL/BHTikTok/main/Icon/Icon.png",
+      "tintColor": "010101",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.0.1",
+          "date": "2023-07-12T01:21:21Z",
+          "localizedDescription": "• Initial release with TikTok 30.3.0 base\n• Video download without watermark\n• Ad removal\n• Privacy enhancements",
+          "downloadURL": "https://github.com/BandarHL/BHTikTok/releases/download/0.0.1/TikTok_30.3.0_BHTikTok_0.0.1.ipa",
+          "size": 226368598,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
-      "name": "Watusi for WhatsApp",
-      "bundleIdentifier": "net.whatsapp.WhatsApp",
-      "developerName": "FouadRaheb",
-      "subtitle": "WhatsApp with Watusi Privacy & Customization",
-      "localizedDescription": "WhatsApp enhanced with the Watusi tweak for maximum privacy and customization:\n\n• Anti-revoke: read deleted messages\n• Custom privacy settings per contact\n• Message scheduler and auto-reply\n• Custom themes and UI modifications\n• Send media without compression\n• Disable forwarded tag\n• Hide online status and last seen\n• Freeze last seen at a specific time\n• Save statuses directly to camera roll\n• Password-protect specific chats\n\nDeveloped by FouadRaheb with continuous updates for WhatsApp compatibility.",
-      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/watusi.png",
-      "tintColor": "25D366",
-      "version": "2.24.8.76",
-      "versionDate": "2025-04-10T12:00:00Z",
-      "versionDescription": "• Updated base to WhatsApp 2.24.8\n• Fixed anti-revoke for group messages\n• New custom theme engine with dark mode variants\n• Improved message scheduler reliability\n• Fixed media sending without compression\n• Performance improvements",
-      "downloadURL": "https://github.com/FouadRaheb/Watusi-for-WhatsApp/releases/download/v2.24.8.76/Watusi_2.24.8.76.ipa",
-      "size": 130000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/watusi_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/watusi_2.png"
-      ]
-    },
-    {
-      "name": "Spotilife",
-      "bundleIdentifier": "com.spotify.client",
-      "developerName": "julioverne",
-      "subtitle": "Spotify with Premium Features Unlocked",
-      "localizedDescription": "Spotify enhanced with the Spotilife tweak. Enjoy premium-tier features:\n\n• Unlimited skips on any playlist or station\n• No audio or banner advertisements\n• Extreme audio quality (320kbps)\n• Enable on-demand playback for free accounts\n• Import and play local files\n• Canvas art and lyrics display\n• Unlimited streaming with no shuffle restrictions\n• Full playlist and queue management\n\nNote: Some features like offline downloads require a genuine Premium subscription.\n\nDeveloped by julioverne.",
-      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/spotilife.png",
-      "tintColor": "1DB954",
-      "version": "8.9.32",
-      "versionDate": "2025-03-01T12:00:00Z",
-      "versionDescription": "• Updated to Spotify 8.9.32 base\n• Fixed streaming quality selector\n• Improved ad-blocking for new ad formats\n• Fixed Canvas art not displaying\n• Stability and performance fixes",
-      "downloadURL": "https://github.com/julioverne/Spotilife/releases/download/v8.9.32/Spotilife_8.9.32.ipa",
-      "size": 85000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/spotilife_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/spotilife_2.png"
-      ]
+      "name": "Nicegram",
+      "bundleIdentifier": "app.nicegram",
+      "developerName": "Nicegram LLC",
+      "subtitle": "Enhanced Telegram Client",
+      "localizedDescription": "Nicegram is a feature-rich Telegram client with additional capabilities:\n\n• Unlock restricted chats and channels\n• Multiple account support with quick switching\n• Built-in translator for messages\n• Custom folders and chat organization\n• Enhanced privacy settings\n• Read messages without sending read receipts\n• Custom themes and appearance options\n• Quick reply and scheduling\n• Cloud-based message sync\n• Pin unlimited chats\n\nOpen-source and regularly updated.",
+      "iconURL": "https://raw.githubusercontent.com/nicegram/Nicegram-iOS/develop/nicegram-features/Sources/NicegramUITools/Resources/Assets.xcassets/AppIcon.appiconset/512.png",
+      "tintColor": "2AABEE",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "2.5.2",
+          "date": "2026-06-01T08:14:49Z",
+          "localizedDescription": "• Build 682\n• Updated to latest Telegram framework\n• Bug fixes and performance improvements\n• Improved chat folder management",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-682/Nicegram.ipa",
+          "size": 122278352,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "Delta",
       "bundleIdentifier": "com.rileytestut.Delta",
       "developerName": "Riley Testut",
       "subtitle": "All-in-One Classic Game Emulator",
-      "localizedDescription": "Delta is the premier all-in-one classic video game emulator for iOS. Play retro games from multiple systems with a beautiful, intuitive interface:\n\n• Supported Systems: NES, SNES, N64, GB, GBC, GBA, DS, Sega Genesis/Mega Drive\n• Save states with screenshot previews\n• Fast forward and slow motion\n• Cheat code support (Game Genie, Action Replay, GameShark)\n• Hold button for rapid fire\n• Custom controller skins\n• MFi and Bluetooth controller support\n• Dropbox, Google Drive, and iCloud sync\n• Local multiplayer via controller support\n\nCreated by Riley Testut and the AltStore team.",
-      "iconURL": "https://raw.githubusercontent.com/rileytestut/Delta/main/Delta/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
+      "localizedDescription": "Delta is the premier all-in-one classic video game emulator for iOS:\n\n• Supported Systems: NES, SNES, N64, GB, GBC, GBA, DS, Sega Genesis/Mega Drive\n• Save states with screenshot previews\n• Fast forward and slow motion\n• Cheat code support (Game Genie, Action Replay, GameShark)\n• Hold button for rapid fire\n• Custom controller skins\n• MFi and Bluetooth controller support\n• Dropbox, Google Drive, and iCloud sync\n• Local multiplayer via controller support\n\nCreated by Riley Testut and the AltStore team.",
+      "iconURL": "https://raw.githubusercontent.com/rileytestut/Delta/main/Delta/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
       "tintColor": "8A2BE2",
-      "version": "1.6.1",
-      "versionDate": "2025-05-10T12:00:00Z",
-      "versionDescription": "• Added DS rumble feedback support\n• Improved N64 rendering accuracy\n• Fixed save state corruption on iOS 17.5\n• Added new default controller skins\n• Improved Dropbox sync reliability\n• Performance optimizations for older devices",
-      "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.6.1/Delta-1.6.1.ipa",
-      "size": 38000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/delta_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/delta_2.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/delta_3.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.6",
+          "date": "2024-07-11T01:08:23Z",
+          "localizedDescription": "Delta 1.6 brings major improvements:\n• Added Sega Genesis / Mega Drive support\n• New touch controller skins for Genesis\n• Improved N64 rendering\n• DS microphone support\n• Better save state management\n• Performance optimizations",
+          "downloadURL": "https://github.com/rileytestut/Delta/releases/download/v1.6/Delta_1_6.ipa",
+          "size": 87734964,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "Provenance",
       "bundleIdentifier": "org.provenance-emu.provenance",
       "developerName": "Provenance Emu",
       "subtitle": "Multi-System Retro Game Frontend",
-      "localizedDescription": "Provenance is a powerful multi-emulator frontend supporting a massive library of classic gaming systems:\n\n• Atari 2600, 5200, 7800, Jaguar, Lynx\n• Bandai WonderSwan / WonderSwan Color\n• NEC TurboGrafx-16 / PC Engine, SuperGrafx\n• Nintendo NES, Famicom, SNES, N64, GB, GBC, GBA, DS, Virtual Boy\n• Sega Master System, Genesis/Mega Drive, CD, 32X, Game Gear, Saturn\n• SNK Neo Geo Pocket / Neo Geo Pocket Color\n• Sony PlayStation 1\n\nFeatures automatic ROM scanning, cover art matching, save states, controller support, and a gorgeous library interface.\n\nOpen-source and community-driven.",
-      "iconURL": "https://raw.githubusercontent.com/Provenance-Emu/Provenance/develop/Provenance/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
+      "localizedDescription": "Provenance is a massive multi-emulator frontend supporting dozens of classic systems:\n\n• Atari 2600, 5200, 7800, Jaguar, Lynx\n• NEC TurboGrafx-16 / PC Engine, SuperGrafx\n• Nintendo NES, SNES, N64, GB, GBC, GBA, DS, Virtual Boy\n• Sega Master System, Genesis, CD, 32X, Game Gear, Saturn\n• SNK Neo Geo Pocket Color\n• Sony PlayStation 1\n• iCloud save sync\n• Video filters and shaders\n• Automatic cover art matching\n\nOpen-source and community-driven.",
+      "iconURL": "https://raw.githubusercontent.com/Provenance-Emu/Provenance/develop/Provenance/Assets.xcassets/AppIcon.appiconset/AppIcon-512%402x.png",
       "tintColor": "1C1C1E",
-      "version": "2.6.1",
-      "versionDate": "2025-04-22T12:00:00Z",
-      "versionDescription": "• Added Saturn emulation core (Mednafen)\n• Improved controller mapping interface\n• Fixed audio sync issues on Apple A17 Pro\n• New cover art scraping engine\n• UI improvements for iPad layouts\n• Better iCloud save sync",
-      "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/v2.6.1/Provenance-2.6.1.ipa",
-      "size": 52000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/provenance_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/provenance_2.png"
-      ]
-    },
-    {
-      "name": "RetroArch",
-      "bundleIdentifier": "com.libretro.dist.ios.RetroArch",
-      "developerName": "Libretro",
-      "subtitle": "Universal Emulator & Media Frontend",
-      "localizedDescription": "RetroArch is the reference frontend for the libretro API, providing a unified interface to dozens of emulator cores and media engines:\n\n• 50+ emulator cores supporting nearly every retro platform\n• Advanced shader support (CRT, scanlines, xBR scaling)\n• Netplay for online multiplayer\n• Comprehensive input configuration\n• Achievement system (RetroAchievements integration)\n• Run-ahead latency reduction\n• Recording and streaming capabilities\n• Automatic ROM scanning and playlist management\n• Metal GPU renderer for iOS\n\nThe most versatile emulation platform available, maintained by the Libretro community.",
-      "iconURL": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/apple/iOS/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
-      "tintColor": "000000",
-      "version": "1.19.1",
-      "versionDate": "2025-05-01T12:00:00Z",
-      "versionDescription": "• Updated multiple cores to latest versions\n• Improved Metal renderer performance\n• Fixed touch input latency on iOS 17+\n• Added new CRT shader variants\n• Improved RetroAchievements integration\n• Better MFi controller handling",
-      "downloadURL": "https://github.com/libretro/RetroArch/releases/download/v1.19.1/RetroArch-iOS-v1.19.1.ipa",
-      "size": 145000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/retroarch_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/retroarch_2.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "3.3.0",
+          "date": "2026-03-14T02:17:44Z",
+          "localizedDescription": "• iCloud Sync for saves and states\n• New tvOS UI overhaul\n• Video filters support\n• Improved Saturn emulation\n• Better controller mapping\n• Bug fixes and performance improvements",
+          "downloadURL": "https://github.com/Provenance-Emu/Provenance/releases/download/3.3.0/Provenance-3.3.0-iOS.ipa",
+          "size": 1076407494,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "PPSSPP",
       "bundleIdentifier": "org.ppsspp.ppsspp",
-      "developerName": "Henrik Rydgård",
+      "developerName": "Henrik Rydgard",
       "subtitle": "PlayStation Portable Emulator",
-      "localizedDescription": "PPSSPP is the leading open-source PSP emulator, providing near-perfect compatibility with the PlayStation Portable library:\n\n• HD rendering up to 10x native PSP resolution\n• Vulkan and OpenGL ES rendering backends\n• Save states and fast forward\n• Texture upscaling and filtering\n• Post-processing shader effects\n• MFi and Bluetooth controller support\n• Customizable on-screen touch controls\n• Network (ad-hoc) multiplayer\n• ISO and CSO format support\n• Per-game settings for optimal performance\n\nCreated and maintained by Henrik Rydgård (hrydgard).",
+      "localizedDescription": "PPSSPP is the leading open-source PSP emulator with near-perfect compatibility:\n\n• HD rendering up to 10x native resolution\n• Vulkan and OpenGL ES rendering backends\n• Save states and fast forward\n• Texture upscaling and filtering\n• Post-processing shader effects\n• MFi and Bluetooth controller support\n• Customizable on-screen touch controls\n• Network ad-hoc multiplayer\n• ISO and CSO format support\n• Per-game settings profiles\n\nCreated by Henrik Rydgard (hrydgard).",
       "iconURL": "https://raw.githubusercontent.com/hrydgard/ppsspp/master/icons/icon-512.png",
       "tintColor": "2196F3",
-      "version": "1.17.1",
-      "versionDate": "2025-02-15T12:00:00Z",
-      "versionDescription": "• Vulkan rendering improvements on A-series chips\n• Fixed compatibility with 20+ previously broken titles\n• Better on-screen touch control customization\n• Improved texture cache management\n• Fixed network multiplayer discovery\n• Performance optimizations for Apple Silicon",
-      "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.17.1/PPSSPP-v1.17.1-iOS.ipa",
-      "size": 42000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/ppsspp_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/ppsspp_2.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.20.4",
+          "date": "2026-05-16T12:35:08Z",
+          "localizedDescription": "• Vulkan rendering improvements\n• Fixed compatibility with 20+ titles\n• Better touch control customization\n• Improved texture cache management\n• Performance optimizations for Apple Silicon",
+          "downloadURL": "https://github.com/hrydgard/ppsspp/releases/download/v1.20.4/PPSSPP-iOS-v1.20.4.ipa",
+          "size": 31124277,
+          "minOSVersion": "13.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "UTM",
       "bundleIdentifier": "com.utmapp.UTM",
       "developerName": "osy",
       "subtitle": "Full System Emulator & Virtual Machine",
-      "localizedDescription": "UTM is a full-featured system emulator and virtual machine host for iOS and iPadOS, powered by QEMU:\n\n• Run Windows, Linux, macOS, and other x86/ARM operating systems\n• Hardware-accelerated virtualization on supported devices\n• VGA, console, and serial display modes\n• USB device passthrough\n• Shared directories between host and guest\n• Network configuration (bridged, shared, host-only)\n• Snapshot and save/restore VM states\n• Clipboard sharing with guest OS\n• Built-in SPICE client for remote displays\n• Import and export VM configurations\n\nDeveloped by osy as an open-source project.",
+      "localizedDescription": "UTM is a full-featured system emulator and virtual machine host powered by QEMU:\n\n• Run Windows, Linux, macOS, and other operating systems\n• QEMU v10.0.2 backend\n• VGA, console, and serial display modes\n• USB device passthrough (TrollStore)\n• Shared directories between host and guest\n• Snapshot and save/restore VM states\n• Clipboard sharing with guest OS\n• App Intents for Shortcuts automation\n• Custom keyboard shortcuts for VMs\n• Liquid Glass design on iOS 26\n\nDeveloped by osy as an open-source project.",
       "iconURL": "https://raw.githubusercontent.com/utmapp/UTM/main/Platform/iOS/Assets.xcassets/AppIcon.appiconset/AppIcon-512.png",
       "tintColor": "1E90FF",
-      "version": "4.5.4",
-      "versionDate": "2025-04-05T12:00:00Z",
-      "versionDescription": "• Improved QEMU 8.2 backend integration\n• Better Windows 11 guest support\n• Fixed USB passthrough on iOS 17.4+\n• Memory management improvements for large VMs\n• Added UEFI Secure Boot support\n• Improved network adapter performance",
-      "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.5.4/UTM.ipa",
-      "size": 210000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/utm_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/utm_2.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/utm_3.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "4.7.5",
+          "date": "2026-01-03T17:51:54Z",
+          "localizedDescription": "• Updated to QEMU v10.0.2\n• Liquid Glass design on iOS 26\n• App Intents for Shortcuts automation\n• Custom keyboard shortcuts for VMs\n• Improved wizard for easier VM creation\n• RISC-V64 and classic Mac OS support\n• Bug fixes and stability improvements",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
+          "size": 130058389,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
-      "name": "DolphiniOS",
-      "bundleIdentifier": "me.oatmealdome.DolphiniOS",
-      "developerName": "OatmealDome",
-      "subtitle": "Nintendo GameCube & Wii Emulator",
-      "localizedDescription": "DolphiniOS is the iOS port of the Dolphin Emulator, bringing Nintendo GameCube and Wii gaming to your iPhone and iPad:\n\n• High compatibility with GameCube and Wii libraries\n• JIT recompiler for near-native performance\n• Internal resolution upscaling\n• Wii Remote emulation using device motion sensors\n• MFi and Bluetooth controller support\n• Save states and memory card management\n• Customizable on-screen controls\n• Graphics enhancements and anti-aliasing\n• Game-specific settings profiles\n\nPorted and maintained by OatmealDome based on the Dolphin project.",
-      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/dolphinios.png",
-      "tintColor": "00BFFF",
-      "version": "3.3.3",
-      "versionDate": "2025-01-30T12:00:00Z",
-      "versionDescription": "• Improved JIT support for A15+ chipsets\n• Fixed audio stuttering in Wii titles\n• Better Wii Remote emulation accuracy\n• Fixed rendering in select GameCube titles\n• Stability improvements and crash fixes",
-      "downloadURL": "https://github.com/OatmealDome/dolphin-ios/releases/download/v3.3.3/DolphiniOS-3.3.3.ipa",
-      "size": 68000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/dolphinios_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/dolphinios_2.png"
-      ]
+      "name": "UTM SE",
+      "bundleIdentifier": "com.utmapp.UTM-SE",
+      "developerName": "osy",
+      "subtitle": "Virtual Machine (No JIT Required)",
+      "localizedDescription": "UTM SE is the sideload-friendly version of UTM that does not require JIT:\n\n• No JIT activation needed — works out of the box with AltStore\n• Run Windows, Linux, and other operating systems\n• QEMU v10.0.2 backend with threaded TCG\n• Slower than full UTM but more compatible with sideloading\n• All core features: snapshots, shared directories, USB\n• Perfect for users without TrollStore\n\nDeveloped by osy.",
+      "iconURL": "https://raw.githubusercontent.com/utmapp/UTM/main/Platform/iOS/Assets.xcassets/AppIcon.appiconset/AppIcon-512.png",
+      "tintColor": "4A90D9",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "4.7.5",
+          "date": "2026-01-03T17:51:54Z",
+          "localizedDescription": "• No JIT required — sideload-friendly\n• QEMU v10.0.2 backend\n• All core UTM features\n• Bug fixes and stability improvements",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
+          "size": 213878374,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
-      "name": "Cowabunga",
-      "bundleIdentifier": "com.leminlimez.Cowabunga",
-      "developerName": "lemin",
-      "subtitle": "iOS Customization Toolbox",
-      "localizedDescription": "Cowabunga is a comprehensive iOS customization tool that leverages various exploits to modify system appearance without a jailbreak:\n\n• Custom status bar icons and carrier text\n• Lock screen and home screen modifications\n• Custom system themes and icon theming\n• Modify Control Center modules\n• Change system fonts\n• Custom dock and folder appearance\n• Springboard layout customization\n• Passcode key customization\n• Disable OTA update badge\n• Export and import theme configurations\n\nCreated by lemin (leminlimez) with community contributions.",
-      "iconURL": "https://raw.githubusercontent.com/leminlimez/Cowabunga/main/Cowabunga/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
-      "tintColor": "FF6B35",
-      "version": "10.3.2",
-      "versionDate": "2025-03-20T12:00:00Z",
-      "versionDescription": "• Added new pre-made themes\n• Fixed iOS 17.4 compatibility\n• Improved status bar customization\n• New icon theming engine\n• Fixed theme import/export\n• Stability improvements",
-      "downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga-10.3.2.ipa",
-      "size": 22000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/cowabunga_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/cowabunga_2.png"
-      ]
+      "name": "Feather",
+      "bundleIdentifier": "kh.crysalis.feather",
+      "developerName": "claration",
+      "subtitle": "On-Device IPA Installer & Manager",
+      "localizedDescription": "Feather is a modern, SwiftUI-based on-device IPA installer and app manager:\n\n• Sign and install IPA files directly on device\n• Import certificates and provisioning profiles\n• Built-in IPA file browser\n• Certificate management with expiry tracking\n• Modify bundle identifiers before install\n• Clean, native iOS design\n• URL scheme import support\n• App icon customization\n• Lightweight and fast\n\nOpen-source project by claration (formerly khcrysalis).",
+      "iconURL": "https://raw.githubusercontent.com/claration/Feather/main/Feather/Assets.xcassets/AppIcon.appiconset/feather_glyph.png",
+      "tintColor": "FC6767",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "2.8.2",
+          "date": "2026-04-22T09:18:46Z",
+          "localizedDescription": "• Bug fixes and stability improvements\n• Updated signing engine\n• Improved certificate handling\n• UI polish",
+          "downloadURL": "https://github.com/claration/Feather/releases/download/v2.8.2/Feather.ipa",
+          "size": 14242031,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "SideStore",
+      "bundleIdentifier": "com.SideStore.SideStore",
+      "developerName": "SideStore Team",
+      "subtitle": "Sideload Apps Without a Computer",
+      "localizedDescription": "SideStore is a community-driven fork of AltStore that enables wireless sideloading:\n\n• Sideload apps without a computer after initial setup\n• Automatic app refresh over WiFi\n• WireGuard VPN-based pairing (no tethered connection)\n• AltStore source compatibility\n• JIT support for emulators\n• Built-in source browser\n• Multiple source support\n• Open-source and community maintained\n\nThe next evolution of iOS sideloading.",
+      "iconURL": "https://raw.githubusercontent.com/SideStore/SideStore/develop/AltStore/Assets.xcassets/AppIcon.appiconset/SideStore.png",
+      "tintColor": "8B5CF6",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.6.3",
+          "date": "2026-05-05T03:59:02Z",
+          "localizedDescription": "• Stability improvements\n• Fixed wireless refresh issues\n• Better source handling\n• Bug fixes",
+          "downloadURL": "https://github.com/SideStore/SideStore/releases/download/0.6.3/SideStore.ipa",
+          "size": 28632252,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "LiveContainer",
       "bundleIdentifier": "com.kdt.LiveContainer",
       "developerName": "khanhduytran0",
       "subtitle": "Run Apps Without Sideload Limits",
-      "localizedDescription": "LiveContainer allows you to run multiple sideloaded apps within a single container, effectively bypassing the 3-app sideloading limit on non-jailbroken devices:\n\n• Run unlimited apps from a single sideloaded container\n• No need to re-sign individual apps\n• JIT activation support for emulators\n• App data isolation between contained apps\n• Import IPA files directly on-device\n• Lightweight container with minimal overhead\n• Supports most standard iOS applications\n• Quick app switching within the container\n\nDeveloped by khanhduytran0 as an open-source project.",
-      "iconURL": "https://raw.githubusercontent.com/khanhduytran0/LiveContainer/main/LiveContainer/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
+      "localizedDescription": "LiveContainer allows you to run multiple sideloaded apps within a single container:\n\n• Bypass the 3-app sideloading limit\n• Run unlimited apps from one container\n• No need to re-sign individual apps\n• JIT activation support for emulators\n• App data isolation between contained apps\n• Import IPA files directly on-device\n• Lightweight with minimal overhead\n• Quick app switching\n• App data backup and restore\n\nOpen-source project by khanhduytran0.",
+      "iconURL": "https://raw.githubusercontent.com/LiveContainer/LiveContainer/main/LiveContainer/Assets.xcassets/AppIcon.appiconset/Icon.png",
       "tintColor": "00C853",
-      "version": "2.1",
-      "versionDate": "2025-05-05T12:00:00Z",
-      "versionDescription": "• Expanded app compatibility\n• Improved JIT activation reliability\n• Fixed crash on launch for specific apps\n• Better memory management for contained apps\n• Added app data backup/restore\n• UI improvements",
-      "downloadURL": "https://github.com/khanhduytran0/LiveContainer/releases/download/v2.1/LiveContainer-2.1.ipa",
-      "size": 8000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/livecontainer_1.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "3.7.2",
+          "date": "2026-02-27T04:18:41Z",
+          "localizedDescription": "• Expanded app compatibility\n• Improved JIT activation\n• Fixed crash on launch for specific apps\n• Better memory management\n• App data backup/restore",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer.ipa",
+          "size": 4523860,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
-      "name": "Esign",
-      "bundleIdentifier": "com.esign.tool",
-      "developerName": "ESign Team",
-      "subtitle": "On-Device IPA Signing Utility",
-      "localizedDescription": "Esign is a powerful on-device IPA signing and installation utility for iOS:\n\n• Sign IPA files directly on your device\n• Import p12 certificates and provisioning profiles\n• Modify app bundle identifiers and display names\n• Inject dylibs and frameworks into IPA files\n• Remove app restrictions and entitlements\n• Built-in IPA file manager\n• Support for multiple signing certificates\n• App icon customization before installation\n• URL scheme import support\n• Batch signing capabilities\n\nAn essential tool for the iOS sideloading community.",
-      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/esign.png",
-      "tintColor": "007AFF",
-      "version": "5.0.1",
-      "versionDate": "2025-04-18T12:00:00Z",
-      "versionDescription": "• Updated signing engine for iOS 17.5 compatibility\n• Added certificate chain validation\n• Improved IPA import from Files app\n• Fixed dylib injection edge cases\n• New certificate management interface\n• Bug fixes and UI improvements",
-      "downloadURL": "https://github.com/G7bao/altstore/releases/download/esign-v5.0.1/Esign_5.0.1.ipa",
-      "size": 18000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/esign_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/esign_2.png"
-      ]
+      "name": "Cowabunga",
+      "bundleIdentifier": "com.leminlimez.Cowabunga",
+      "developerName": "lemin",
+      "subtitle": "iOS Customization Toolbox",
+      "localizedDescription": "Cowabunga is a comprehensive iOS customization tool using MacDirtyCow and other exploits:\n\n• Custom status bar icons and carrier text\n• Lock screen and home screen modifications\n• Custom system themes and icon theming\n• Modify Control Center modules\n• Change system fonts\n• Custom dock and folder appearance\n• Springboard layout customization\n• Passcode key customization\n• Disable OTA update badge\n• Export and import theme configs\n\nCreated by lemin (leminlimez).",
+      "iconURL": "https://raw.githubusercontent.com/leminlimez/Cowabunga/main/Cowabunga/Assets.xcassets/AppIcon.appiconset/Icon.png",
+      "tintColor": "FF6B35",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "10.3.2",
+          "date": "2023-05-29T20:49:25Z",
+          "localizedDescription": "• Bug fixes and stability improvements\n• New pre-made themes\n• Improved status bar customization\n• Better theme import/export",
+          "downloadURL": "https://github.com/leminlimez/Cowabunga/releases/download/v10.3.2/Cowabunga.ipa",
+          "size": 16288960,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "TrollInstallerX",
+      "bundleIdentifier": "com.alfiecg.TrollInstallerX",
+      "developerName": "alfiecg24",
+      "subtitle": "TrollStore Installer for iOS 14-16.6.1",
+      "localizedDescription": "TrollInstallerX is the universal TrollStore installer supporting a wide range of iOS versions:\n\n• Install TrollStore on iOS 14.0 to 16.6.1\n• Automatic exploit selection for your device\n• One-tap installation process\n• Supports all device types (iPhone, iPad, iPod)\n• No jailbreak required\n• Persistence through reboots\n• Enables perma-signed app installation\n\nDeveloped by alfiecg24 for the TrollStore community.",
+      "iconURL": "https://raw.githubusercontent.com/alfiecg24/TrollInstallerX/main/TrollInstallerX/Assets.xcassets/AppIcon.appiconset/AppIcon.png",
+      "tintColor": "4CD964",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.0.3",
+          "date": "2024-09-12T18:27:05Z",
+          "localizedDescription": "• Improved exploit reliability\n• Better device compatibility\n• Fixed installation on certain iOS 16 versions\n• Stability improvements",
+          "downloadURL": "https://github.com/alfiecg24/TrollInstallerX/releases/download/1.0.3/TrollInstallerX.ipa",
+          "size": 6889214,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Watusi for WhatsApp",
+      "bundleIdentifier": "net.whatsapp.WhatsApp",
+      "developerName": "FouadRaheb",
+      "subtitle": "WhatsApp with Privacy & Customization",
+      "localizedDescription": "WhatsApp enhanced with the Watusi tweak for privacy and customization:\n\n• Anti-revoke: read deleted messages\n• Custom privacy settings per contact\n• Message scheduler and auto-reply\n• Custom themes and UI modifications\n• Send media without compression\n• Disable forwarded tag\n• Hide online status and last seen\n• Freeze last seen at a specific time\n• Save statuses to camera roll\n• Password-protect specific chats\n\nDeveloped by FouadRaheb.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/watusi.png",
+      "tintColor": "25D366",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "24.20.78",
+          "date": "2025-10-15T12:00:00Z",
+          "localizedDescription": "• Updated WhatsApp base\n• Fixed anti-revoke for group messages\n• New theme engine with dark mode\n• Improved message scheduler\n• Performance improvements",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/watusi-v24.20.78/Watusi_24.20.78.ipa",
+          "size": 135000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Rocket for Instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "developerName": "alfhaily",
+      "subtitle": "Instagram Supercharged",
+      "localizedDescription": "Instagram enhanced with Rocket tweak:\n\n• Download photos, videos, stories, and reels\n• Repost content with one tap\n• View full-resolution profile pictures\n• Disable read receipts for DMs\n• Save stories anonymously\n• Grid layout customization\n• Block sponsored posts and suggestions\n• Confirm actions before liking/following\n\nCreated by Majd Alfhaily.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/rocket.png",
+      "tintColor": "E1306C",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "3.8.2",
+          "date": "2025-06-20T12:00:00Z",
+          "localizedDescription": "• Updated for latest Instagram\n• Fixed media saving for reels\n• Improved story downloading\n• Minor bug fixes",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/rocket-v3.8.2/Rocket_3.8.2.ipa",
+          "size": 112000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Spotilife",
+      "bundleIdentifier": "com.spotify.client",
+      "developerName": "julioverne",
+      "subtitle": "Spotify Premium Features Unlocked",
+      "localizedDescription": "Spotify enhanced with Spotilife tweak:\n\n• Unlimited skips on any playlist or station\n• No audio or banner advertisements\n• Extreme audio quality (320kbps)\n• On-demand playback for free accounts\n• Canvas art and lyrics display\n• No shuffle restrictions\n• Full playlist and queue management\n\nNote: Offline downloads require genuine Premium.\nDeveloped by julioverne.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/spotilife.png",
+      "tintColor": "1DB954",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "8.9.82",
+          "date": "2025-08-01T12:00:00Z",
+          "localizedDescription": "• Updated Spotify base\n• Fixed streaming quality selector\n• Improved ad-blocking\n• Stability fixes",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/spotilife-v8.9.82/Spotilife_8.9.82.ipa",
+          "size": 88000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Cercube for YouTube",
+      "bundleIdentifier": "com.google.ios.youtube.cercube",
+      "developerName": "Majd Alfhaily",
+      "subtitle": "YouTube with Ad-Block & Downloads",
+      "localizedDescription": "YouTube enhanced with Cercube:\n\n• Block all video and banner ads\n• Download videos in MP4 and MP3\n• Background audio and video playback\n• Picture-in-Picture mode\n• Built-in download manager with queue\n• Adjustable playback speed\n• Disable age restrictions\n• Auto-replay and Shorts blocking\n\nCreated by Majd Alfhaily.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/cercube.png",
+      "tintColor": "FF0000",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "5.4.2",
+          "date": "2025-07-08T12:00:00Z",
+          "localizedDescription": "• Updated for latest YouTube\n• Fixed download manager\n• Improved ad-blocking engine\n• Added 4K download options",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/cercube-v5.4.2/Cercube_5.4.2.ipa",
+          "size": 122000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "Enmity",
       "bundleIdentifier": "com.hammerandchisel.discord",
       "developerName": "Enmity Team",
       "subtitle": "Discord with Themes & Plugins",
-      "localizedDescription": "Discord enhanced with the Enmity modification framework. Transform your Discord experience:\n\n• Install custom themes with live preview\n• Plugin system for extending functionality\n• Custom CSS injection\n• Enhanced notification controls\n• Custom font support\n• Message formatting enhancements\n• Built-in theme and plugin browser\n• Developer tools for creating extensions\n• Settings backup and sync\n• Compatible with most Discord features\n\nBuilt by the Enmity Team as an open-source project.",
+      "localizedDescription": "Discord enhanced with Enmity modification framework:\n\n• Install custom themes with live preview\n• Plugin system for extending functionality\n• Custom CSS injection\n• Enhanced notification controls\n• Custom font support\n• Built-in theme and plugin browser\n• Developer tools for extensions\n• Settings backup and sync\n\nOpen-source project by the Enmity Team.",
       "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/enmity.png",
       "tintColor": "5865F2",
-      "version": "2.3.0",
-      "versionDate": "2025-02-10T12:00:00Z",
-      "versionDescription": "• Updated to latest Discord base\n• Fixed plugin loading on iOS 17+\n• New theme engine with better CSS support\n• Improved plugin API\n• Fixed notification handling\n• Stability improvements",
-      "downloadURL": "https://github.com/enmity-mod/enmity/releases/download/v2.3.0/Enmity_2.3.0.ipa",
-      "size": 92000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/enmity_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/enmity_2.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "2.3.0",
+          "date": "2025-02-10T12:00:00Z",
+          "localizedDescription": "• Updated to latest Discord base\n• Fixed plugin loading\n• New theme engine\n• Stability improvements",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/enmity-v2.3.0/Enmity_2.3.0.ipa",
+          "size": 95000000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "FilzaEscaped",
       "bundleIdentifier": "com.tigisoftware.Filza",
       "developerName": "TIGI Software",
       "subtitle": "Advanced Root Filesystem Manager",
-      "localizedDescription": "Filza is the most advanced file manager for iOS, providing deep filesystem access through exploit-based techniques:\n\n• Full root filesystem browsing\n• Built-in text, hex, plist, and SQLite editors\n• Media player for audio and video files\n• Image viewer with metadata inspection\n• WebDAV server for wireless file transfer\n• Archive creation and extraction (ZIP, TAR, GZ)\n• File permission and ownership management\n• Batch file operations\n• Bookmarks for frequently accessed paths\n• Terminal emulator\n\nDeveloped by TIGI Software, the gold standard of iOS file managers.",
+      "localizedDescription": "Filza is the most advanced iOS file manager with root access:\n\n• Full root filesystem browsing\n• Built-in text, hex, plist, and SQLite editors\n• Media player for audio and video\n• WebDAV server for wireless transfer\n• Archive creation and extraction\n• File permission management\n• Batch file operations\n• Terminal emulator\n• Bookmarks for frequent paths\n\nDeveloped by TIGI Software.",
       "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/filza.png",
       "tintColor": "FECA57",
-      "version": "4.0",
-      "versionDate": "2024-12-15T12:00:00Z",
-      "versionDescription": "• iOS 17 exploit chain support\n• Redesigned file browser interface\n• New built-in code editor with syntax highlighting\n• Improved WebDAV transfer speeds\n• Fixed archive extraction for large files\n• Bug fixes and stability improvements",
-      "downloadURL": "https://github.com/G7bao/altstore/releases/download/filza-v4.0/FilzaEscaped_4.0.ipa",
-      "size": 14000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/filza_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/filza_2.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "4.0",
+          "date": "2025-01-15T12:00:00Z",
+          "localizedDescription": "• iOS 17 exploit support\n• Redesigned file browser\n• New code editor with syntax highlighting\n• Improved WebDAV speeds\n• Bug fixes",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/filza-v4.0/FilzaEscaped_4.0.ipa",
+          "size": 14500000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "AppStore++",
       "bundleIdentifier": "com.cokepokes.AppStorePlus",
       "developerName": "CokePokes",
       "subtitle": "Downgrade Any App Store App",
-      "localizedDescription": "AppStore++ allows you to downgrade or upgrade any application from the App Store to any previously released version:\n\n• View complete version history of any app\n• Downgrade to any previous version\n• Block automatic app updates\n• Version comparison with changelogs\n• Compatible with sideloading environments\n• Useful for reverting unwanted UI changes\n• Find versions compatible with older iOS\n• One-tap version installation\n\nDeveloped by CokePokes, an essential utility for maintaining app compatibility.",
+      "localizedDescription": "AppStore++ lets you downgrade or upgrade any App Store application:\n\n• View complete version history\n• Downgrade to any previous version\n• Block automatic app updates\n• Version comparison with changelogs\n• Find versions for older iOS\n• One-tap version installation\n\nDeveloped by CokePokes.",
       "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/appstorepp.png",
       "tintColor": "0984E3",
-      "version": "0.9.15",
-      "versionDate": "2025-01-05T12:00:00Z",
-      "versionDescription": "• Fixed iOS 17 compatibility\n• Improved version history fetching speed\n• Better UI with version comparison\n• Fixed installation on non-jailbroken devices\n• Bug fixes and stability improvements",
-      "downloadURL": "https://github.com/G7bao/altstore/releases/download/appstorepp-v0.9.15/AppStorePP_0.9.15.ipa",
-      "size": 5000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/appstorepp_1.png"
-      ]
-    },
-    {
-      "name": "Santander",
-      "bundleIdentifier": "com.serena.SantanderFiles",
-      "developerName": "SerenaKit",
-      "subtitle": "Modern SwiftUI File Browser",
-      "localizedDescription": "Santander is a modern, SwiftUI-based file manager and browser built for iOS:\n\n• Clean, native iOS design language\n• Browse application containers and documents\n• Built-in plist viewer and editor\n• Image and media preview\n• File sharing via AirDrop and share sheet\n• Quick Look integration for document preview\n• Search across the filesystem\n• Favorites and recent files\n• File metadata and attributes inspector\n• Dark mode and accessibility support\n\nDeveloped by SerenaKit as an open-source project.",
-      "iconURL": "https://raw.githubusercontent.com/SerenaKit/Santander/main/Santander/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
-      "tintColor": "E17055",
-      "version": "1.3.2",
-      "versionDate": "2025-02-20T12:00:00Z",
-      "versionDescription": "• Refreshed SwiftUI interface\n• Improved filesystem navigation performance\n• Added file preview for more formats\n• Fixed permission handling on iOS 17\n• Better search functionality\n• Minor UI polish",
-      "downloadURL": "https://github.com/SerenaKit/Santander/releases/download/v1.3.2/Santander-1.3.2.ipa",
-      "size": 12000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/santander_1.png"
-      ]
-    },
-    {
-      "name": "Cercube for YouTube",
-      "bundleIdentifier": "com.google.ios.youtube.cercube",
-      "developerName": "Majd Alfhaily",
-      "subtitle": "YouTube with Cercube Ad-Blocking & Downloads",
-      "localizedDescription": "YouTube enhanced with the Cercube tweak for a premium viewing experience:\n\n• Block all video, banner, and native advertisements\n• Download videos in multiple resolutions and formats (MP4, MP3)\n• Background audio and video playback\n• Picture-in-Picture mode\n• Built-in download manager with queue\n• Adjustable playback speed (0.5x to 2x)\n• Disable age restrictions\n• Auto-replay videos and playlists\n• Export downloads to camera roll or Files app\n• Shorts blocking option\n\nCreated by Majd Alfhaily with regular updates for YouTube compatibility.",
-      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/cercube.png",
-      "tintColor": "FF0000",
-      "version": "5.4.2",
-      "versionDate": "2025-03-08T12:00:00Z",
-      "versionDescription": "• Updated for latest YouTube release\n• Fixed download manager for new video formats\n• Improved ad-blocking engine\n• Added new download quality options (4K)\n• Fixed PiP activation\n• Performance and stability fixes",
-      "downloadURL": "https://github.com/G7bao/altstore/releases/download/cercube-v5.4.2/Cercube_5.4.2.ipa",
-      "size": 120000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/cercube_1.png",
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/cercube_2.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "0.9.15",
+          "date": "2025-03-05T12:00:00Z",
+          "localizedDescription": "• iOS 17 compatibility fixes\n• Improved version fetching\n• Better UI\n• Bug fixes",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/appstorepp-v0.9.15/AppStorePP_0.9.15.ipa",
+          "size": 5200000,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     },
     {
       "name": "iGameGod",
       "bundleIdentifier": "com.igg.iGameGod",
       "developerName": "iOSGods",
       "subtitle": "iOS Game Cheating Engine",
-      "localizedDescription": "iGameGod is a comprehensive game modification tool for iOS, providing powerful cheating capabilities:\n\n• Speed Hack: Modify game speed (slow motion or fast forward)\n• Value Scanner: Search and modify in-memory game values\n• Auto Touch: Record and replay touch sequences\n• Pointer Scanner: Find static addresses for stable cheats\n• Floating toolbar for easy in-game access\n• Supports both 32-bit and 64-bit games\n• Save and load cheat profiles per game\n• Hex editor for advanced memory editing\n• Game-specific cheat tables from the community\n• Touch recording macros\n\nDeveloped by the iOSGods community.",
+      "localizedDescription": "iGameGod is a comprehensive game modification tool:\n\n• Speed Hack for game speed control\n• Value Scanner for in-memory editing\n• Auto Touch for macro recording\n• Pointer Scanner for stable cheats\n• Floating toolbar for in-game access\n• 32-bit and 64-bit game support\n• Cheat profiles per game\n• Hex editor for advanced editing\n• Community cheat tables\n\nDeveloped by the iOSGods community.",
       "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/igamegod.png",
       "tintColor": "D63031",
-      "version": "3.2",
-      "versionDate": "2025-01-25T12:00:00Z",
-      "versionDescription": "• Added support for new game engines (Unity 2023, Unreal 5)\n• Improved value scanner accuracy\n• Fixed speed hack on iOS 17\n• Better floating toolbar positioning\n• New cheat table format support\n• Stability and compatibility improvements",
-      "downloadURL": "https://github.com/G7bao/altstore/releases/download/igamegod-v3.2/iGameGod_3.2.ipa",
-      "size": 15000000,
-      "screenshotURLs": [
-        "https://raw.githubusercontent.com/G7bao/altstore/main/assets/screenshots/igamegod_1.png"
-      ]
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "3.2",
+          "date": "2025-04-25T12:00:00Z",
+          "localizedDescription": "• New game engine support (Unity 2023, Unreal 5)\n• Improved value scanner\n• Fixed speed hack on iOS 17\n• Better floating toolbar",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/igamegod-v3.2/iGameGod_3.2.ipa",
+          "size": 15500000,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Esign",
+      "bundleIdentifier": "com.esign.tool",
+      "developerName": "ESign Team",
+      "subtitle": "On-Device IPA Signing Tool",
+      "localizedDescription": "Esign is a powerful on-device IPA signing utility:\n\n• Sign IPA files directly on device\n• Import p12 certificates and profiles\n• Modify bundle identifiers and names\n• Inject dylibs and frameworks\n• Built-in IPA file manager\n• Multiple signing certificates\n• App icon customization\n• URL scheme import\n• Batch signing\n\nEssential for the iOS sideloading community.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/esign.png",
+      "tintColor": "007AFF",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "5.0.1",
+          "date": "2025-09-18T12:00:00Z",
+          "localizedDescription": "• Updated signing engine for iOS 17.5\n• Certificate chain validation\n• Improved IPA import\n• Fixed dylib injection\n• UI improvements",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/esign-v5.0.1/Esign_5.0.1.ipa",
+          "size": 18500000,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "DolphiniOS",
+      "bundleIdentifier": "me.oatmealdome.DolphiniOS",
+      "developerName": "OatmealDome",
+      "subtitle": "GameCube & Wii Emulator",
+      "localizedDescription": "DolphiniOS brings GameCube and Wii gaming to iOS:\n\n• High compatibility with both GameCube and Wii libraries\n• JIT recompiler for near-native performance\n• Internal resolution upscaling\n• Wii Remote emulation via device motion\n• MFi and Bluetooth controller support\n• Save states and memory card management\n• Customizable on-screen controls\n• Graphics enhancements and anti-aliasing\n\nPorted by OatmealDome.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/dolphinios.png",
+      "tintColor": "00BFFF",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "3.3.3",
+          "date": "2025-01-30T12:00:00Z",
+          "localizedDescription": "• Improved JIT support for A15+ chips\n• Fixed audio stuttering in Wii titles\n• Better Wii Remote accuracy\n• Stability improvements",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/dolphinios-v3.3.3/DolphiniOS_3.3.3.ipa",
+          "size": 70000000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "RetroArch",
+      "bundleIdentifier": "com.libretro.dist.ios.RetroArch",
+      "developerName": "Libretro",
+      "subtitle": "Universal Emulator Frontend",
+      "localizedDescription": "RetroArch is the reference frontend for the libretro API:\n\n• 50+ emulator cores for every retro platform\n• Advanced shaders (CRT, scanlines, xBR)\n• Netplay for online multiplayer\n• RetroAchievements integration\n• Run-ahead latency reduction\n• Recording and streaming\n• Automatic ROM scanning\n• Metal GPU renderer for iOS\n\nMaintained by the Libretro community.",
+      "iconURL": "https://raw.githubusercontent.com/libretro/RetroArch/master/pkg/apple/iOS/Assets.xcassets/AppIcon.appiconset/Icon-512.png",
+      "tintColor": "000000",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.19.1",
+          "date": "2025-05-01T12:00:00Z",
+          "localizedDescription": "• Updated multiple cores\n• Improved Metal renderer\n• Fixed touch input latency on iOS 17+\n• New CRT shader variants\n• Better MFi controller handling",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/retroarch-v1.19.1/RetroArch_1.19.1.ipa",
+          "size": 148000000,
+          "minOSVersion": "14.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Santander",
+      "bundleIdentifier": "com.serena.SantanderFiles",
+      "developerName": "SerenaKit",
+      "subtitle": "Modern SwiftUI File Browser",
+      "localizedDescription": "Santander is a modern file manager built with SwiftUI:\n\n• Clean, native iOS design language\n• Browse application containers\n• Built-in plist viewer and editor\n• Image and media preview\n• File sharing via AirDrop\n• Quick Look integration\n• Filesystem search\n• Favorites and recent files\n• Dark mode support\n\nOpen-source by SerenaKit.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/santander.png",
+      "tintColor": "E17055",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "1.3.2",
+          "date": "2025-02-20T12:00:00Z",
+          "localizedDescription": "• Refreshed SwiftUI interface\n• Improved navigation performance\n• Added more file format previews\n• Fixed permission handling",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/santander-v1.3.2/Santander_1.3.2.ipa",
+          "size": 12500000,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "Wolf for Facebook",
+      "bundleIdentifier": "com.facebook.Facebook",
+      "developerName": "wolfofthefacebook",
+      "subtitle": "Facebook with Enhanced Privacy",
+      "localizedDescription": "Facebook enhanced with Wolf tweak:\n\n• Download videos, images, and stories\n• Disable sponsored posts and ads\n• Disable typing indicators\n• Hide read receipts for messages\n• Save profile pictures in full resolution\n• Custom font and color themes\n• Block suggested content\n• Enhanced privacy controls\n\nA privacy-focused Facebook experience.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/wolf.png",
+      "tintColor": "1877F2",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "2.1",
+          "date": "2025-05-15T12:00:00Z",
+          "localizedDescription": "• Updated Facebook base\n• Improved ad blocking\n• Fixed video downloads\n• Enhanced privacy features",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/wolf-v2.1/Wolf_2.1.ipa",
+          "size": 245000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "SCInsta",
+      "bundleIdentifier": "com.burbn.instagram.scinsta",
+      "developerName": "SoCuul",
+      "subtitle": "Instagram with SCInsta Tweak",
+      "localizedDescription": "Instagram enhanced with the SCInsta modification:\n\n• Download photos, stories, reels, and IGTV\n• Disable read receipts and typing indicators\n• View full-size profile pictures\n• Anonymous story viewing\n• Repost content natively\n• Ad-free browsing experience\n• Custom grid layouts\n• Enhanced privacy controls\n\nDeveloped by SoCuul.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/scinsta.png",
+      "tintColor": "C13584",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "7.2",
+          "date": "2025-04-10T12:00:00Z",
+          "localizedDescription": "• Updated Instagram base\n• Fixed reel downloads\n• Improved story viewer\n• Bug fixes",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/scinsta-v7.2/SCInsta_7.2.ipa",
+          "size": 118000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "YTMusicUltimate",
+      "bundleIdentifier": "com.google.ios.youtubemusic",
+      "developerName": "dayanch96",
+      "subtitle": "YouTube Music Premium Unlocked",
+      "localizedDescription": "YouTube Music with premium features unlocked:\n\n• Ad-free music streaming\n• Background playback without Premium\n• Download music for offline listening\n• Higher audio quality options\n• Remove casting restrictions\n• Custom playback speed\n• Skip limit removal\n• Queue management\n\nDeveloped by dayanch96.",
+      "iconURL": "https://raw.githubusercontent.com/dayanch96/YTMusicUltimate/main/Resources/YTMusicUltimate.png",
+      "tintColor": "FF0000",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "2.4.1",
+          "date": "2026-03-19T06:29:14Z",
+          "localizedDescription": "• Updated YouTube Music base\n• Fixed background playback\n• Improved ad removal\n• Bug fixes",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/ytmusicult-v2.4.1/YTMusicUltimate_2.4.1.ipa",
+          "size": 92000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
+    },
+    {
+      "name": "SnapEnhance",
+      "bundleIdentifier": "com.snap.Mushroom",
+      "developerName": "rhunk",
+      "subtitle": "Snapchat Privacy & Enhancement Suite",
+      "localizedDescription": "Snapchat enhanced with SnapEnhance for maximum privacy:\n\n• Save snaps and stories without notifying\n• Anti-screenshot detection bypass\n• Stealth mode for viewing content\n• Disable bitmoji presence\n• Custom location spoofing\n• Hide typing and read indicators\n• Extended snap viewing time\n• Conversation pin unlock\n• Ad and Spotlight removal\n• Snap Map ghost mode\n\nDeveloped by rhunk.",
+      "iconURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/icons/snapenhance.png",
+      "tintColor": "FFFC00",
+      "screenshotURLs": [],
+      "versions": [
+        {
+          "version": "2.5.0",
+          "date": "2025-11-20T12:00:00Z",
+          "localizedDescription": "• Updated Snapchat base\n• Improved stealth mode\n• Fixed location spoofing\n• Better anti-ban measures\n• UI improvements",
+          "downloadURL": "https://github.com/G7bao/altstore/releases/download/snapenhance-v2.5.0/SnapEnhance_2.5.0.ipa",
+          "size": 198000000,
+          "minOSVersion": "16.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      }
     }
   ],
   "news": [
     {
       "title": "Welcome to MA1 PLUS",
-      "identifier": "ma1plus-welcome-2025",
-      "caption": "The ultimate premium sideloading repository has arrived. Explore our curated collection of emulators, tweaked apps, and iOS utilities.",
+      "identifier": "ma1plus-welcome-2026",
+      "caption": "The ultimate premium sideloading repository — 30+ curated apps covering tweaked social media, emulators, and iOS utilities. All free, forever.",
       "tintColor": "6C5CE7",
       "imageURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/news/welcome-banner.png",
-      "date": "2025-05-20T12:00:00Z",
+      "date": "2026-06-07T12:00:00Z",
       "notify": false
     },
     {
-      "title": "Delta 1.6.1 — DS Rumble & N64 Fixes",
-      "identifier": "delta-update-161",
-      "caption": "The latest Delta update brings DS rumble feedback support, improved N64 rendering accuracy, and save state reliability fixes.",
-      "tintColor": "8A2BE2",
-      "imageURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/news/delta-update.png",
-      "date": "2025-05-10T12:00:00Z",
-      "notify": true,
-      "appID": "com.rileytestut.Delta"
-    },
-    {
-      "title": "UTM 4.5.4 — Windows 11 & USB Fixes",
-      "identifier": "utm-update-454",
-      "caption": "UTM has been updated with improved Windows 11 guest support, UEFI Secure Boot, and USB passthrough fixes for iOS 17.4+.",
+      "title": "UTM 4.7.5 — QEMU 10 & Liquid Glass",
+      "identifier": "utm-update-475",
+      "caption": "UTM updated to QEMU v10.0.2 with Liquid Glass design on iOS 26, App Intents, and custom keyboard shortcuts.",
       "tintColor": "1E90FF",
-      "imageURL": "https://raw.githubusercontent.com/G7bao/altstore/main/assets/news/utm-update.png",
-      "date": "2025-04-05T12:00:00Z",
+      "date": "2026-01-03T17:51:54Z",
       "notify": true,
       "appID": "com.utmapp.UTM"
     },
     {
-      "title": "uYouPlus Updated to YouTube 19.25.3",
-      "identifier": "uyouplus-update-19253",
-      "caption": "uYouPlus has been updated to YouTube v19.25.3 with uYou v3.0.4. Fixes ad blocking for new ad formats and background playback on iOS 17.4+.",
-      "tintColor": "FF0000",
-      "date": "2025-03-15T12:00:00Z",
+      "title": "PPSSPP 1.20.4 Released",
+      "identifier": "ppsspp-update-1204",
+      "caption": "PPSSPP receives major update with improved Vulkan rendering, 20+ title fixes, and Apple Silicon optimizations.",
+      "tintColor": "2196F3",
+      "date": "2026-05-16T12:35:08Z",
       "notify": true,
-      "appID": "com.google.ios.youtube"
+      "appID": "org.ppsspp.ppsspp"
     },
     {
-      "title": "LiveContainer 2.1 — More Apps, Better JIT",
-      "identifier": "livecontainer-update-21",
-      "caption": "LiveContainer v2.1 expands app compatibility, improves JIT activation, and adds app data backup and restore functionality.",
+      "title": "Provenance 3.3.0 — iCloud Sync",
+      "identifier": "provenance-update-330",
+      "caption": "Provenance now supports iCloud save sync, video filters, and an overhauled tvOS interface.",
+      "tintColor": "1C1C1E",
+      "date": "2026-03-14T02:17:44Z",
+      "notify": true,
+      "appID": "org.provenance-emu.provenance"
+    },
+    {
+      "title": "SideStore 0.6.3 Available",
+      "identifier": "sidestore-update-063",
+      "caption": "SideStore receives stability and wireless refresh improvements. Sideload apps without a computer.",
+      "tintColor": "8B5CF6",
+      "date": "2026-05-05T03:59:02Z",
+      "notify": true,
+      "appID": "com.SideStore.SideStore"
+    },
+    {
+      "title": "LiveContainer 3.7.2 — Bypass Sideload Limits",
+      "identifier": "livecontainer-update-372",
+      "caption": "Run unlimited sideloaded apps from a single container. LiveContainer 3.7.2 brings expanded compatibility and JIT improvements.",
       "tintColor": "00C853",
-      "date": "2025-05-05T12:00:00Z",
+      "date": "2026-02-27T04:18:41Z",
       "notify": true,
       "appID": "com.kdt.LiveContainer"
     },
     {
-      "title": "Repository Update — 20 Apps & Growing",
-      "identifier": "ma1plus-20-apps",
-      "caption": "MA1 PLUS now features 20 hand-curated applications across emulators, tweaked media apps, and system utilities. More coming soon!",
+      "title": "Feather v2.8.2 — Modern IPA Installer",
+      "identifier": "feather-update-282",
+      "caption": "Sign and install IPAs on-device with Feather. Updated signing engine and certificate handling.",
+      "tintColor": "FC6767",
+      "date": "2026-04-22T09:18:46Z",
+      "notify": true,
+      "appID": "kh.crysalis.feather"
+    },
+    {
+      "title": "30+ Apps & Growing",
+      "identifier": "ma1plus-30-apps",
+      "caption": "MA1 PLUS now features over 30 hand-curated applications across emulators, tweaked social media, ad-free streaming, and system utilities.",
       "tintColor": "6C5CE7",
-      "date": "2025-04-01T12:00:00Z",
+      "date": "2026-06-01T12:00:00Z",
       "notify": false
     }
   ]
