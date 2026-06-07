@@ -16,12 +16,12 @@
 **One-tap install:**
 
 ```
-altstore://source?url=https://YOUR_USERNAME.github.io/altstore/ma1plus.json
+altstore://source?url=https://G7bao.github.io/altstore/ma1plus.json
 ```
 
 **Or manually:**
 1. Open AltStore → Browse → tap **+**
-2. Paste: `https://YOUR_USERNAME.github.io/altstore/ma1plus.json`
+2. Paste: `https://G7bao.github.io/altstore/ma1plus.json`
 
 ---
 
