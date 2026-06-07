@@ -27,12 +27,6 @@ import requests
 # Only apps hosted on GitHub with .ipa assets in releases can be auto-updated.
 # ---------------------------------------------------------------------------
 GITHUB_SOURCES = {
-    "com.google.ios.youtube": {
-        "owner": "qnblackcat",
-        "repo": "uYouPlus",
-        "asset_pattern": r"uYouPlus.*\.ipa$",
-        "version_pattern": r"v?([\d.]+-[\d.]+)",
-    },
     "com.atebits.Tweetie2": {
         "owner": "BandarHL",
         "repo": "BHTwitter",
@@ -48,13 +42,7 @@ GITHUB_SOURCES = {
     "org.provenance-emu.provenance": {
         "owner": "Provenance-Emu",
         "repo": "Provenance",
-        "asset_pattern": r"Provenance.*\.ipa$",
-        "version_pattern": r"v?([\d.]+)",
-    },
-    "com.libretro.dist.ios.RetroArch": {
-        "owner": "libretro",
-        "repo": "RetroArch",
-        "asset_pattern": r"RetroArch.*iOS.*\.ipa$",
+        "asset_pattern": r"Provenance.*iOS.*\.ipa$",
         "version_pattern": r"v?([\d.]+)",
     },
     "org.ppsspp.ppsspp": {
@@ -66,13 +54,13 @@ GITHUB_SOURCES = {
     "com.utmapp.UTM": {
         "owner": "utmapp",
         "repo": "UTM",
-        "asset_pattern": r"UTM\.ipa$",
+        "asset_pattern": r"^UTM\.ipa$",
         "version_pattern": r"v?([\d.]+)",
     },
-    "me.oatmealdome.DolphiniOS": {
-        "owner": "OatmealDome",
-        "repo": "dolphin-ios",
-        "asset_pattern": r"DolphiniOS.*\.ipa$",
+    "com.utmapp.UTM-SE": {
+        "owner": "utmapp",
+        "repo": "UTM",
+        "asset_pattern": r"^UTM-SE\.ipa$",
         "version_pattern": r"v?([\d.]+)",
     },
     "com.leminlimez.Cowabunga": {
@@ -82,21 +70,39 @@ GITHUB_SOURCES = {
         "version_pattern": r"v?([\d.]+)",
     },
     "com.kdt.LiveContainer": {
-        "owner": "khanhduytran0",
+        "owner": "LiveContainer",
         "repo": "LiveContainer",
-        "asset_pattern": r"LiveContainer.*\.ipa$",
+        "asset_pattern": r"^LiveContainer\.ipa$",
         "version_pattern": r"v?([\d.]+)",
     },
-    "com.hammerandchisel.discord": {
-        "owner": "enmity-mod",
-        "repo": "enmity",
-        "asset_pattern": r"Enmity.*\.ipa$",
+    "kh.crysalis.feather": {
+        "owner": "claration",
+        "repo": "Feather",
+        "asset_pattern": r"Feather\.ipa$",
         "version_pattern": r"v?([\d.]+)",
     },
-    "com.serena.SantanderFiles": {
-        "owner": "SerenaKit",
-        "repo": "Santander",
-        "asset_pattern": r"Santander.*\.ipa$",
+    "com.SideStore.SideStore": {
+        "owner": "SideStore",
+        "repo": "SideStore",
+        "asset_pattern": r"SideStore\.ipa$",
+        "version_pattern": r"v?([\d.]+)",
+    },
+    "com.alfiecg.TrollInstallerX": {
+        "owner": "alfiecg24",
+        "repo": "TrollInstallerX",
+        "asset_pattern": r"^TrollInstallerX\.ipa$",
+        "version_pattern": r"v?([\d.]+)",
+    },
+    "app.nicegram": {
+        "owner": "nicegram",
+        "repo": "Nicegram-iOS",
+        "asset_pattern": r"Nicegram\.ipa$",
+        "version_pattern": r"build-([\d]+)",
+    },
+    "com.zhiliaoapp.musically": {
+        "owner": "BandarHL",
+        "repo": "BHTikTok",
+        "asset_pattern": r"TikTok.*BHTikTok.*\.ipa$",
         "version_pattern": r"v?([\d.]+)",
     },
 }
@@ -160,31 +166,26 @@ def format_changelog(release: dict) -> str:
     if not body:
         return "• Updated to the latest version."
 
-    # Clean up markdown formatting for AltStore display
     lines = body.strip().split("\n")
     cleaned = []
     for line in lines:
         line = line.strip()
         if not line:
             continue
-        # Convert markdown list items to bullet points
         line = re.sub(r"^[-*]\s+", "• ", line)
-        # Remove markdown headers
         line = re.sub(r"^#{1,6}\s+", "", line)
-        # Remove bold/italic markers
         line = re.sub(r"\*{1,2}(.*?)\*{1,2}", r"\1", line)
         if line:
             cleaned.append(line)
 
-    result = "\n".join(cleaned[:15])  # Limit to 15 lines
+    result = "\n".join(cleaned[:15])
     return result if result else "• Updated to the latest version."
 
 
 def update_source():
-    """Main update logic."""
+    """Main update logic — uses AltStore V2 schema with versions array."""
     get_github_token()
 
-    # Load the existing source file
     if not os.path.exists(SOURCE_FILE):
         print(f"[fatal] {SOURCE_FILE} not found in current directory.")
         sys.exit(1)
@@ -197,7 +198,7 @@ def update_source():
     checked_count = 0
 
     print(f"\n{'=' * 60}")
-    print(f"  MA1 PLUS — Automated Source Updater")
+    print(f"  MA1 PLUS — Automated Source Updater (V2 Schema)")
     print(f"  Checking {len(GITHUB_SOURCES)} GitHub-tracked apps...")
     print(f"{'=' * 60}\n")
 
@@ -217,39 +218,42 @@ def update_source():
         if not release:
             continue
 
-        # Find the IPA asset
         ipa_asset = find_ipa_asset(release, config["asset_pattern"])
         if not ipa_asset:
-            print(f"  [skip] No IPA asset matching '{config['asset_pattern']}' found in release.")
+            print(f"  [skip] No IPA asset matching '{config['asset_pattern']}' found.")
             continue
 
-        # Extract version
         new_version = extract_version(release["tag_name"], config["version_pattern"])
-        current_version = app.get("version", "")
+
+        # V2 Schema: version data is inside the versions array
+        versions = app.get("versions", [])
+        current_version = versions[0]["version"] if versions else ""
 
         if new_version == current_version and not os.environ.get("FORCE_UPDATE"):
             print(f"  [ok] Already at v{current_version} — no update needed.")
             continue
 
-        # Update app entry
-        app["version"] = new_version
-        app["downloadURL"] = ipa_asset["browser_download_url"]
-        app["size"] = ipa_asset["size"]
-        app["versionDescription"] = format_changelog(release)
-
-        # Parse and format the release date
         published = release.get("published_at", "")
-        if published:
-            app["versionDate"] = published
-        else:
-            app["versionDate"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        if not published:
+            published = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+        new_version_entry = {
+            "version": new_version,
+            "date": published,
+            "localizedDescription": format_changelog(release),
+            "downloadURL": ipa_asset["browser_download_url"],
+            "size": ipa_asset["size"],
+            "minOSVersion": versions[0].get("minOSVersion", "15.0") if versions else "15.0",
+        }
+
+        # Replace the versions array with the new version as the latest
+        app["versions"] = [new_version_entry]
 
         updated_count += 1
-        print(f"  [updated] v{current_version} → v{new_version}")
+        print(f"  [updated] v{current_version} -> v{new_version}")
         print(f"            URL: {ipa_asset['browser_download_url'][:80]}...")
         print(f"            Size: {ipa_asset['size']:,} bytes")
 
-    # Write updated source file
     with open(SOURCE_FILE, "w", encoding="utf-8") as f:
         json.dump(source, f, indent=2, ensure_ascii=False)
 
@@ -257,6 +261,7 @@ def update_source():
     print(f"  Summary: Checked {checked_count} apps, updated {updated_count}.")
     print(f"  Source file: {SOURCE_FILE}")
     print(f"{'=' * 60}\n")
+
 
 
 if __name__ == "__main__":
