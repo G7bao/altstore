@@ -91,9 +91,9 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "2.5.2",
+          "version": "682",
           "date": "2026-06-01T08:14:49Z",
-          "localizedDescription": "• Build 682\n• Updated to latest Telegram framework\n• Bug fixes and performance improvements\n• Improved chat folder management",
+          "localizedDescription": "Build of Nicegram for iOS 2.5.2 (682)",
           "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-682/Nicegram.ipa",
           "size": 122278352,
           "minOSVersion": "15.0"
