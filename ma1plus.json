@@ -235,11 +235,11 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "2.8.2",
-          "date": "2026-04-22T09:18:46Z",
-          "localizedDescription": "• Bug fixes and stability improvements\n• Updated signing engine\n• Improved certificate handling\n• UI polish",
-          "downloadURL": "https://github.com/claration/Feather/releases/download/v2.8.2/Feather.ipa",
-          "size": 14242031,
+          "version": "2.9.0",
+          "date": "2026-07-05T02:11:53Z",
+          "localizedDescription": "Thank you for all your feedback and contributions!\n> [!TIP]\n> For `idevice` configuration, you can use [Impactor](https://github.com/claration/Impactor?tab=readme-ov-file#pairing-file) for easily retrieving a pairing file for installing!\nWhat's Changed\n• Added tweak options in default signing options.\n• Added ability to search for identifier's in Library @ismailcarlik in https://github.com/claration/Feather/pull/652\n• Fixed issue in the file enumeration logic, by using the path property instead of method.\n• Fixed credit links.\n• Fixed duplicate repository in recommended repositories.\nNew Contributors\n• @xiangfeidexiaohuo made their first contribution in https://github.com/claration/Feather/pull/634\n• @osageling made their first contribution in https://github.com/claration/Feather/pull/642\nFull Changelog: https://github.com/claration/Feather/compare/v2.8.2...v2.9.0",
+          "downloadURL": "https://github.com/claration/Feather/releases/download/v2.9.0/Feather.ipa",
+          "size": 14241853,
           "minOSVersion": "15.0"
         }
       ],
