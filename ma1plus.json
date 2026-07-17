@@ -283,11 +283,11 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "3.7.2",
-          "date": "2026-02-27T04:18:41Z",
-          "localizedDescription": "• Expanded app compatibility\n• Improved JIT activation\n• Fixed crash on launch for specific apps\n• Better memory management\n• App data backup/restore",
-          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.7.2/LiveContainer.ipa",
-          "size": 4523860,
+          "version": "3.8.0",
+          "date": "2026-07-17T07:44:20Z",
+          "localizedDescription": "LiveContainer 3.8.0\n> [!Warning]\n> The standalone version requires SideStore 0.6.2+ or AltStore 2.2.1+ for installation.\n> To install LiveContainer with built-in SideStore (`LiveContainer+SideStore.ipa`), please use [Impactor](https://github.com/khcrysalis/Impactor) or [iloader](https://github.com/nab138/iloader). See [our installation guide](https://livecontainer.github.io/docs/installation/lc_sidestore) for details.\nNew Features\nStorage Management\n• Added a new storage management view with a breakdown of app bundles, containers, temporary files, app group data, tweaks, and other files. (Hidden apps' size is included in \"other\" section until unlocked)\n• Added per-app storage details, including app bundle size, container sizes, and last-used date.\n• Added actions to clean temporary files and caches, including guest app caches and LiveContainer's own caches.\nMultiple LiveContainers\n• Added configurable launch priority for multiple LiveContainer instances, making shared-app shortcuts choose available instances in the order you prefer. (#1367)\nShare to Apps in LiveContainer\nAdded a share extension to LiveContainer. When you share a URL or a file from iOS's share sheet, LiveContainer will ask which app you would like to open the URL/file in, so the old share to LiveContainer shortcut method is no longer needed. When an ipa file is shared in this way, LiveContainer will ask if you want to install it in LiveContainer or in the built-in SideStore (if installed) (#1357)\nMultitasking\n• Added per-app multitask preferences. Each app can now follow the global setting, always launch in multitask mode, or avoid multitask mode. (#1208)",
+          "downloadURL": "https://github.com/LiveContainer/LiveContainer/releases/download/3.8.0/LiveContainer.ipa",
+          "size": 4707271,
           "minOSVersion": "15.0"
         }
       ],
