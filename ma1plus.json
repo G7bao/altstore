@@ -187,11 +187,11 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "4.7.5",
-          "date": "2026-01-03T17:51:54Z",
-          "localizedDescription": "• Updated to QEMU v10.0.2\n• Liquid Glass design on iOS 26\n• App Intents for Shortcuts automation\n• Custom keyboard shortcuts for VMs\n• Improved wizard for easier VM creation\n• RISC-V64 and classic Mac OS support\n• Bug fixes and stability improvements",
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM.ipa",
-          "size": 130058389,
+          "version": "5.0.7",
+          "date": "2026-10-16T06:25:45Z",
+          "localizedDescription": "Highlights\n• (macOS) DirectX graphics support for Windows: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\n• Vulkan 1.3 graphics support for Linux: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\n• Snapshots: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.\n• (macOS) Apple Virtualization on macOS 27: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.\n• (iOS) Better touch controls: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n• (iOS) iPhone Duo: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\nNotes\n• Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.\n• The minimum supported versions are now macOS 12 and iOS 15.\n• We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\n• (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\n• (macOS) Apple CoreGL backend does not support Vulkan or DirectX.\n• Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.\nChanges (v5.0.7)",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM.ipa",
+          "size": 150507204,
           "minOSVersion": "14.0"
         }
       ],
@@ -211,11 +211,11 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "4.7.5",
-          "date": "2026-01-03T17:51:54Z",
-          "localizedDescription": "• No JIT required — sideload-friendly\n• QEMU v10.0.2 backend\n• All core UTM features\n• Bug fixes and stability improvements",
-          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v4.7.5/UTM-SE.ipa",
-          "size": 213878374,
+          "version": "5.0.7",
+          "date": "2026-10-16T06:25:45Z",
+          "localizedDescription": "Highlights\n• (macOS) DirectX graphics support for Windows: Modern accelerated graphics for Windows 11 is now available on UTM for the first time. The driver is still experimental and games compatibility is currently limited.\n• Vulkan 1.3 graphics support for Linux: Vulkan 1.3 is now supported on Linux guests with VirtIO Venus drivers in Mesa. Additionally, OpenGL 4.1 is supported with the new Apple Core OpenGL backend (macOS only).\n• Snapshots: Save your VM at any point and go back to it later from the new Snapshots tab. Works with QEMU VMs on macOS and iOS 26, and with Apple Virtualization VMs on macOS 27.\n• (macOS) Apple Virtualization on macOS 27: Pass USB devices through to your VM, turn on Secure Boot for Linux, run a VM without saving changes, and let VMs talk to each other with new networking modes.\n• (iOS) Better touch controls: Gestures respond immediately, with new middle-click and right-drag actions and a new drag-to-scroll touch mode.\n• (iOS) iPhone Duo: Fold your iPhone Duo like a laptop, and the bottom half becomes a keyboard or touchpad for your VM.\nNotes\n• Suspended VMs may not resume correctly after updating. We recommend shutting down all VMs before you update UTM.\n• The minimum supported versions are now macOS 12 and iOS 15.\n• We now have a [development blog](https://blog.getutm.app)! Follow us for in-depth technical deep dives such as how we brought DirectX to QEMU.\n• (macOS) To use the new graphics driver for Windows 11, we recommend a fresh install because the driver is still experimental and its use could lead to instability in the system. During the install of the guest tools, you will be prompted to select the experimental graphics driver. If you wish to install the new driver on a system that already is running the older display only driver, you need to run the uninstall script provided on the guest tools install ISO first.\n• (macOS) Apple CoreGL backend does not support Vulkan or DirectX.\n• Linux desktop rendering in Vulkan does not work due to lack of support for indirect draws for geometry shaders. Please configure your guest to use the older VirGL Gallium driver.\nChanges (v5.0.7)",
+          "downloadURL": "https://github.com/utmapp/UTM/releases/download/v5.0.7/UTM-SE.ipa",
+          "size": 237075721,
           "minOSVersion": "14.0"
         }
       ],
