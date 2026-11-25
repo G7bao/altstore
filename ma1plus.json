@@ -91,11 +91,11 @@
       "screenshotURLs": [],
       "versions": [
         {
-          "version": "732",
-          "date": "2026-11-09T07:53:26Z",
-          "localizedDescription": "Build of Nicegram for iOS 2.6.7 (732)",
-          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/build-732/Nicegram.ipa",
-          "size": 103972066,
+          "version": "736",
+          "date": "2026-11-25T13:28:54Z",
+          "localizedDescription": "Build of Nicegram for iOS 2.6.9 (736)",
+          "downloadURL": "https://github.com/nicegram/Nicegram-iOS/releases/download/v2.6.9-build-736/Nicegram.ipa",
+          "size": 109492669,
           "minOSVersion": "15.0"
         }
       ],
